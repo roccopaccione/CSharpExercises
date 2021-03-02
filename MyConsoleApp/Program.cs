@@ -7,6 +7,7 @@ namespace MyConsoleApp
         public static void Main(string[] args)
         {
             OperatorExamples();
+            LogicalOperators();
         }
 
         private static void OperatorExamples()
@@ -26,5 +27,16 @@ namespace MyConsoleApp
             bool truthValue = true;
             Console.WriteLine(truthValue);
         }
+
+        private static void LogicalOperators()
+        {
+            int age = 22;
+            int odd = 33;
+
+            bool isEqual = (age == odd);
+            Console.WriteLine(isEqual);
+        }
+
+
     }
 }
