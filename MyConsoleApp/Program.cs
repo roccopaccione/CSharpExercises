@@ -35,6 +35,9 @@ namespace MyConsoleApp
 
             bool isEqual = (age == odd);
             Console.WriteLine(isEqual);
+
+            bool isGreater = (odd >= age);
+            Console.WriteLine(isGreater);
         }
 
 
