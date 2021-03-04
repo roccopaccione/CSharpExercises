@@ -8,6 +8,7 @@ namespace MyConsoleApp
         {
             OperatorExamples();
             LogicalOperators();
+            LoopFun();
         }
 
         private static void OperatorExamples()
@@ -38,6 +39,13 @@ namespace MyConsoleApp
 
             bool isGreater = (odd >= age);
             Console.WriteLine(isGreater);
+        }
+        private static void LoopFun()
+        {
+            for(int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Iteration # " + i);
+            }
         }
 
 
