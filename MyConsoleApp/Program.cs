@@ -7,8 +7,8 @@ namespace MyConsoleApp
         public static void Main(string[] args)
         {
             OperatorExamples();
-            LogicalOperators();
-            LoopFun();
+            //LogicalOperators();
+            //LoopFun();
         }
 
         private static void OperatorExamples()
@@ -27,6 +27,19 @@ namespace MyConsoleApp
 
             bool truthValue = true;
             Console.WriteLine(truthValue);
+
+            while (area < 50)
+            {
+                height++;
+                area = width * height;
+            }
+
+            do
+            {
+                width--;
+                area = width * height;
+            } while (area < 25);
+
         }
 
         private static void LogicalOperators()
@@ -46,7 +59,9 @@ namespace MyConsoleApp
             {
                 Console.WriteLine("Iteration # " + i);
             }
+            
         }
+
 
 
     }
